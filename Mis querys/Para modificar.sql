@@ -1,6 +1,6 @@
 
-select * from TB_CATEGORIAS
+select * from TB_TIPOS_DOCUMENTOS_PV_CL
 
 delete from TB_CATEGORIAS where codigo_ca = 13 --Borrar datos--
 
-dbcc checkident (tb_marcas,reseed,0) --Para resetar el contador--
+dbcc checkident (TB_TIPOS_DOCUMENTOS_PV_CL,reseed,-1) --Para resetar el contador--
