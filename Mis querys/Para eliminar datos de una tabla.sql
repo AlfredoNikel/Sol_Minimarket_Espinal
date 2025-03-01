@@ -1,5 +1,5 @@
-select * from TB_ALMACENES
+select * from TB_TIPOS_DOCUMENTOS_PV_CL
 
-delete from TB_ALMACENES where codigo_al = 6 --Borrar datos--
+delete from TB_TIPOS_DOCUMENTOS_PV_CL where codigo_tdpc = 1 --Borrar datos--
 
-delete from TB_ALMACENES where codigo_al in (3,4,5,6); --Borrar varios datos--
+delete from TB_TIPOS_DOCUMENTOS_PV_CL where codigo_tdpc in (1,2,3); --Borrar varios datos--

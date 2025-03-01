@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Minimarket_Espinal_Presentacion.Reportes.Nuevo_data_set {
+namespace Minimarket_Espinal_Presentacion.Reportes {
     
     
     /// <summary>
@@ -2281,7 +2281,7 @@ namespace Minimarket_Espinal_Presentacion.Reportes.Nuevo_data_set {
         }
     }
 }
-namespace Minimarket_Espinal_Presentacion.Reportes.Nuevo_data_set.DataSet_MiniMarket_EspinalTableAdapters {
+namespace Minimarket_Espinal_Presentacion.Reportes.DataSet_MiniMarket_EspinalTableAdapters {
     
     
     /// <summary>
