@@ -132,12 +132,15 @@
     <Compile Include="Reportes\Frm_Rpt_Marcas.Designer.cs">
       <DependentUpon>Frm_Rpt_Marcas.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Reportes\Frm_Rpt_ProvinciasDP.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reportes\Frm_Rpt_ProvinciasDP.Designer.cs">
       <DependentUpon>Frm_Rpt_ProvinciasDP.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     <Compile Include="Reportes\Frm_Rpt_Rubros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,9 +193,12 @@
     <EmbeddedResource Include="Reportes\Frm_Rpt_Marcas.resx">
       <DependentUpon>Frm_Rpt_Marcas.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Reportes\Frm_Rpt_ProvinciasDP.resx">
       <DependentUpon>Frm_Rpt_ProvinciasDP.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     <EmbeddedResource Include="Reportes\Frm_Rpt_Rubros.resx">
       <DependentUpon>Frm_Rpt_Rubros.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,7 +208,10 @@
     <EmbeddedResource Include="Reportes\Rpt_Almacenes.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_categorias.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Marcas.rdlc" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Reportes\Rpt_ProvinciasDP.rdlc" />
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     <EmbeddedResource Include="Reportes\Rpt_Rubros.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
     <None Include="packages.config" />

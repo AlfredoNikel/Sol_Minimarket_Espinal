@@ -108,6 +108,7 @@
             </Mappings>
             <Sources />
           </TableAdapter>
+<<<<<<< HEAD
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="USP_Listado_deTableAdapter" GeneratorDataComponentClassName="USP_Listado_deTableAdapter" Name="USP_Listado_de" UserDataComponentName="USP_Listado_deTableAdapter">
             <MainSource>
               <DbSource ConnectionRef="cn (Settings)" DbObjectName="BD_Minimarket_Espinal.dbo.USP_Listado_de" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
@@ -128,6 +129,8 @@
             </Mappings>
             <Sources />
           </TableAdapter>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         </Tables>
         <Sources />
       </DataSource>
@@ -136,9 +139,10 @@
   <xs:element name="DataSet_MiniMarket_Espinal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet_MiniMarket_Espinal" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet_MiniMarket_Espinal">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="USP_Listado_ca" msprop:Generator_RowEvHandlerName="USP_Listado_caRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_caRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_caRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_caRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_ca" msprop:Generator_RowChangedName="USP_Listado_caRowChanged" msprop:Generator_UserTableName="USP_Listado_ca" msprop:Generator_RowChangingName="USP_Listado_caRowChanging" msprop:Generator_RowClassName="USP_Listado_caRow" msprop:Generator_TableClassName="USP_Listado_caDataTable" msprop:Generator_TableVarName="tableUSP_Listado_ca">
+        <xs:element name="USP_Listado_ca" msprop:Generator_RowClassName="USP_Listado_caRow" msprop:Generator_RowEvHandlerName="USP_Listado_caRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_caRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_caRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_caRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_ca" msprop:Generator_RowChangedName="USP_Listado_caRowChanged" msprop:Generator_UserTableName="USP_Listado_ca" msprop:Generator_RowChangingName="USP_Listado_caRowChanging" msprop:Generator_TableClassName="USP_Listado_caDataTable" msprop:Generator_TableVarName="tableUSP_Listado_ca">
           <xs:complexType>
             <xs:sequence>
+<<<<<<< HEAD
               <xs:element name="codigo_ca" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="codigo_caColumn" msprop:Generator_ColumnPropNameInRow="codigo_ca" msprop:Generator_UserColumnName="codigo_ca" msprop:Generator_ColumnVarNameInTable="columncodigo_ca" type="xs:int" />
               <xs:element name="descripcion_ca" msprop:Generator_ColumnPropNameInTable="descripcion_caColumn" msprop:Generator_ColumnPropNameInRow="descripcion_ca" msprop:Generator_UserColumnName="descripcion_ca" msprop:Generator_ColumnVarNameInTable="columndescripcion_ca" minOccurs="0">
                 <xs:simpleType>
@@ -176,6 +180,10 @@
             <xs:sequence>
               <xs:element name="codigo_ma" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="codigo_maColumn" msprop:Generator_ColumnPropNameInRow="codigo_ma" msprop:Generator_UserColumnName="codigo_ma" msprop:Generator_ColumnVarNameInTable="columncodigo_ma" type="xs:int" />
               <xs:element name="descripcion_ma" msprop:Generator_ColumnPropNameInTable="descripcion_maColumn" msprop:Generator_ColumnPropNameInRow="descripcion_ma" msprop:Generator_UserColumnName="descripcion_ma" msprop:Generator_ColumnVarNameInTable="columndescripcion_ma" minOccurs="0">
+=======
+              <xs:element name="codigo_ca" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codigo_ca" msprop:Generator_ColumnPropNameInTable="codigo_caColumn" msprop:Generator_ColumnPropNameInRow="codigo_ca" msprop:Generator_ColumnVarNameInTable="columncodigo_ca" type="xs:int" />
+              <xs:element name="descripcion_ca" msprop:Generator_UserColumnName="descripcion_ca" msprop:Generator_ColumnPropNameInTable="descripcion_caColumn" msprop:Generator_ColumnPropNameInRow="descripcion_ca" msprop:Generator_ColumnVarNameInTable="columndescripcion_ca" minOccurs="0">
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="40" />
@@ -199,11 +207,33 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+<<<<<<< HEAD
         <xs:element name="USP_Listado_ru" msprop:Generator_RowEvHandlerName="USP_Listado_ruRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_ruRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_ruRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_ruRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_ru" msprop:Generator_RowChangedName="USP_Listado_ruRowChanged" msprop:Generator_UserTableName="USP_Listado_ru" msprop:Generator_RowChangingName="USP_Listado_ruRowChanging" msprop:Generator_RowClassName="USP_Listado_ruRow" msprop:Generator_TableClassName="USP_Listado_ruDataTable" msprop:Generator_TableVarName="tableUSP_Listado_ru">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="codigo_ru" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInTable="codigo_ruColumn" msprop:Generator_ColumnPropNameInRow="codigo_ru" msprop:Generator_UserColumnName="codigo_ru" msprop:Generator_ColumnVarNameInTable="columncodigo_ru" type="xs:int" />
               <xs:element name="descripcion_ru" msprop:Generator_ColumnPropNameInTable="descripcion_ruColumn" msprop:Generator_ColumnPropNameInRow="descripcion_ru" msprop:Generator_UserColumnName="descripcion_ru" msprop:Generator_ColumnVarNameInTable="columndescripcion_ru" minOccurs="0">
+=======
+        <xs:element name="USP_Listado_ma" msprop:Generator_RowClassName="USP_Listado_maRow" msprop:Generator_RowEvHandlerName="USP_Listado_maRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_maRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_maRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_maRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_ma" msprop:Generator_RowChangedName="USP_Listado_maRowChanged" msprop:Generator_UserTableName="USP_Listado_ma" msprop:Generator_RowChangingName="USP_Listado_maRowChanging" msprop:Generator_TableClassName="USP_Listado_maDataTable" msprop:Generator_TableVarName="tableUSP_Listado_ma">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_ma" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codigo_ma" msprop:Generator_ColumnPropNameInTable="codigo_maColumn" msprop:Generator_ColumnPropNameInRow="codigo_ma" msprop:Generator_ColumnVarNameInTable="columncodigo_ma" type="xs:int" />
+              <xs:element name="descripcion_ma" msprop:Generator_UserColumnName="descripcion_ma" msprop:Generator_ColumnPropNameInTable="descripcion_maColumn" msprop:Generator_ColumnPropNameInRow="descripcion_ma" msprop:Generator_ColumnVarNameInTable="columndescripcion_ma" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="USP_Listado_al" msprop:Generator_RowClassName="USP_Listado_alRow" msprop:Generator_RowEvHandlerName="USP_Listado_alRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_alRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_alRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_alRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_al" msprop:Generator_RowChangedName="USP_Listado_alRowChanged" msprop:Generator_UserTableName="USP_Listado_al" msprop:Generator_RowChangingName="USP_Listado_alRowChanging" msprop:Generator_TableClassName="USP_Listado_alDataTable" msprop:Generator_TableVarName="tableUSP_Listado_al">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_al" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codigo_al" msprop:Generator_ColumnPropNameInTable="codigo_alColumn" msprop:Generator_ColumnPropNameInRow="codigo_al" msprop:Generator_ColumnVarNameInTable="columncodigo_al" type="xs:int" />
+              <xs:element name="descripcion_al" msprop:Generator_UserColumnName="descripcion_al" msprop:Generator_ColumnPropNameInTable="descripcion_alColumn" msprop:Generator_ColumnPropNameInRow="descripcion_al" msprop:Generator_ColumnVarNameInTable="columndescripcion_al" minOccurs="0">
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="60" />
@@ -221,6 +251,20 @@
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="USP_Listado_ru" msprop:Generator_RowClassName="USP_Listado_ruRow" msprop:Generator_RowEvHandlerName="USP_Listado_ruRowChangeEventHandler" msprop:Generator_RowDeletedName="USP_Listado_ruRowDeleted" msprop:Generator_RowDeletingName="USP_Listado_ruRowDeleting" msprop:Generator_RowEvArgName="USP_Listado_ruRowChangeEvent" msprop:Generator_TablePropName="USP_Listado_ru" msprop:Generator_RowChangedName="USP_Listado_ruRowChanged" msprop:Generator_UserTableName="USP_Listado_ru" msprop:Generator_RowChangingName="USP_Listado_ruRowChanging" msprop:Generator_TableClassName="USP_Listado_ruDataTable" msprop:Generator_TableVarName="tableUSP_Listado_ru">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_ru" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="codigo_ru" msprop:Generator_ColumnPropNameInTable="codigo_ruColumn" msprop:Generator_ColumnPropNameInRow="codigo_ru" msprop:Generator_ColumnVarNameInTable="columncodigo_ru" type="xs:int" />
+              <xs:element name="descripcion_ru" msprop:Generator_UserColumnName="descripcion_ru" msprop:Generator_ColumnPropNameInTable="descripcion_ruColumn" msprop:Generator_ColumnPropNameInRow="descripcion_ru" msprop:Generator_ColumnVarNameInTable="columndescripcion_ru" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
@@ -249,9 +293,12 @@
       <xs:selector xpath=".//mstns:USP_Listado_ru" />
       <xs:field xpath="mstns:codigo_ru" />
     </xs:unique>
+<<<<<<< HEAD
     <xs:unique name="USP_Listado_de_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:USP_Listado_de" />
       <xs:field xpath="mstns:codigo_de" />
     </xs:unique>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
   </xs:element>
 </xs:schema>

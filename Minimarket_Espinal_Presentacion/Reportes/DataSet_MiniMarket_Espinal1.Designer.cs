@@ -34,8 +34,11 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         
         private USP_Listado_ruDataTable tableUSP_Listado_ru;
         
+<<<<<<< HEAD
         private USP_Listado_deDataTable tableUSP_Listado_de;
         
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -79,9 +82,12 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
                 if ((ds.Tables["USP_Listado_ru"] != null)) {
                     base.Tables.Add(new USP_Listado_ruDataTable(ds.Tables["USP_Listado_ru"]));
                 }
+<<<<<<< HEAD
                 if ((ds.Tables["USP_Listado_de"] != null)) {
                     base.Tables.Add(new USP_Listado_deDataTable(ds.Tables["USP_Listado_de"]));
                 }
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
                 this.Namespace = ds.Namespace;
@@ -152,6 +158,7 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+<<<<<<< HEAD
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
         public USP_Listado_deDataTable USP_Listado_de {
@@ -162,6 +169,8 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         [global::System.ComponentModel.BrowsableAttribute(true)]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
         public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
@@ -242,9 +251,12 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
                 if ((ds.Tables["USP_Listado_ru"] != null)) {
                     base.Tables.Add(new USP_Listado_ruDataTable(ds.Tables["USP_Listado_ru"]));
                 }
+<<<<<<< HEAD
                 if ((ds.Tables["USP_Listado_de"] != null)) {
                     base.Tables.Add(new USP_Listado_deDataTable(ds.Tables["USP_Listado_de"]));
                 }
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
                 this.Namespace = ds.Namespace;
@@ -308,12 +320,15 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
                     this.tableUSP_Listado_ru.InitVars();
                 }
             }
+<<<<<<< HEAD
             this.tableUSP_Listado_de = ((USP_Listado_deDataTable)(base.Tables["USP_Listado_de"]));
             if ((initTable == true)) {
                 if ((this.tableUSP_Listado_de != null)) {
                     this.tableUSP_Listado_de.InitVars();
                 }
             }
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -334,8 +349,11 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
             base.Tables.Add(this.tableUSP_Listado_al);
             this.tableUSP_Listado_ru = new USP_Listado_ruDataTable();
             base.Tables.Add(this.tableUSP_Listado_ru);
+<<<<<<< HEAD
             this.tableUSP_Listado_de = new USP_Listado_deDataTable();
             base.Tables.Add(this.tableUSP_Listado_de);
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -370,12 +388,15 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+<<<<<<< HEAD
         private bool ShouldSerializeUSP_Listado_de() {
             return false;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
             if ((e.Action == global::System.ComponentModel.CollectionChangeAction.Remove)) {
                 this.InitVars();
@@ -444,9 +465,12 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void USP_Listado_ruRowChangeEventHandler(object sender, USP_Listado_ruRowChangeEvent e);
         
+<<<<<<< HEAD
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void USP_Listado_deRowChangeEventHandler(object sender, USP_Listado_deRowChangeEvent e);
         
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
@@ -1848,6 +1872,7 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
@@ -2125,6 +2150,8 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         }
         
         /// <summary>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class USP_Listado_caRow : global::System.Data.DataRow {
@@ -2423,6 +2450,7 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         }
         
         /// <summary>
+<<<<<<< HEAD
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class USP_Listado_deRow : global::System.Data.DataRow {
@@ -2477,6 +2505,8 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
         }
         
         /// <summary>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -2645,6 +2675,7 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
                 }
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///Row event argument class
@@ -2679,6 +2710,8 @@ namespace Minimarket_Espinal_Presentacion.Reportes {
                 }
             }
         }
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     }
 }
 namespace Minimarket_Espinal_Presentacion.Reportes.DataSet_MiniMarket_EspinalTableAdapters {
@@ -3596,6 +3629,7 @@ namespace Minimarket_Espinal_Presentacion.Reportes.DataSet_MiniMarket_EspinalTab
     }
     
     /// <summary>
+<<<<<<< HEAD
     ///Represents the connection and commands used to retrieve and save data.
     ///</summary>
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3778,6 +3812,8 @@ namespace Minimarket_Espinal_Presentacion.Reportes.DataSet_MiniMarket_EspinalTab
     }
     
     /// <summary>
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     ///TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
     ///</summary>
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]

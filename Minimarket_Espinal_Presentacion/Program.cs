@@ -16,7 +16,11 @@ namespace Minimarket_Espinal_Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Frm_ProvinciasDP());
+=======
+            Application.Run(new Frm_Rubros());
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
         }
     }
 }

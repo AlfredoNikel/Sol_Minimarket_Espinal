@@ -45,7 +45,10 @@
     <Compile Include="E_Categorias.cs" />
     <Compile Include="E_Marcas.cs" />
     <Compile Include="E_Productos.cs" />
+<<<<<<< HEAD
     <Compile Include="E_ProvinciasDP.cs" />
+=======
+>>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     <Compile Include="E_Rubros.cs" />
     <Compile Include="E_Unidades_Medidas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
