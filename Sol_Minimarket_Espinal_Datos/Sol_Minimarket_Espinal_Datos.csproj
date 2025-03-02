@@ -46,10 +46,7 @@
     <Compile Include="D_categorias.cs" />
     <Compile Include="D_Marcas.cs" />
     <Compile Include="D_Productos.cs" />
-<<<<<<< HEAD
     <Compile Include="D_ProvinciasDP.cs" />
-=======
->>>>>>> db2d3fcf5dc723d10bde7de1fded34b3135d9cdc
     <Compile Include="D_Rubros.cs" />
     <Compile Include="D_Unidades_Medidas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
